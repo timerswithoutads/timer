@@ -1,0 +1,27 @@
+/* Import the font */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Source+Code+Pro:wght@500&display=swap');
+body {
+    background: linear-gradient(90deg, rgba(34, 195, 128, 1) 0%, rgba(149, 28, 171, 1) 100%);
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex_container {
+    margin: 1rem;
+    width: calc(100% / 3 - 2rem);
+    min-width: 600px;
+    height: calc(100vh / 2 - 2rem);
+    background-color: rgba(25, 25, 36, 0.5);
+    border-radius: 2rem;
+}
