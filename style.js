@@ -12,8 +12,8 @@ document.getElementById("plus").addEventListener("click", function() {
     // Add the class "flex_item"
     clone.classList.add("flex_item");
 
-    // Remove the id "flex_copy"
-    clone.id = "";
+    // Add a unique id to the cloned element
+    clone.id = "flex_copy_" + document.getElementsByClassName("flex_item").length;
 
     // Add the clone to the container before the element with id "plus"
     document.getElementById("container").insertBefore(clone, document.getElementById("plus"));
