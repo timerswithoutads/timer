@@ -13,12 +13,25 @@
 
 <body>
     <div id="container">
-        <div class="flex_container">
-            <div id="plus">
-                <i class="fa-solid fa-plus"></i>
-            </div>
+        <div id="plus">
+            <i class="fa-solid fa-plus"></i>
         </div>
     </div>
+    <div class="flex_item" id="flex_copy">
+        <div class="flexitem_title">
+            <h1>Timer</h1>
+        </div>
+        <div class="flexitem_time">
+            <div id="time">00:00:00</div>
+        </div>
+        <div class="flexitem_startbutton">
+            <button id="startbutton" onclick="start()">Start</button>
+        </div>
+        <div class="flexitem_resetbutton">
+            <button id="resetbutton" onclick="reset()">Reset</button>
+        </div>
+    </div>
+    <script src="./style.js"></script>
 </body>
 
 </html>
